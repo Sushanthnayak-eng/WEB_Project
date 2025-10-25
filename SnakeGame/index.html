@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Snake Game with Speed Option</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="controls">
+    <label for="speed">Snake Speed (lower is faster, ms): </label>
+    <input type="number" id="speed" value="120" min="40" max="1000" step="10" />
+    <button id="startBtn">Start Game</button>
+  </div>
+  <canvas id="game" width="400" height="400"></canvas>
+  <script src="snake.js"></script>
+</body>
+</html>
